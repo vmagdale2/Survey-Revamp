@@ -59,8 +59,8 @@ The revamped survey system has achieved:
 ```bash
 cd survey-project-modernization
 
-3. **Test**
-cd survey-project-modernization
+3. **Navigate to the Project Directory**:
+```bash
 
 3. **Install Required Libraries**:
 ```bash
