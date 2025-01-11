@@ -59,6 +59,9 @@ The revamped survey system has achieved:
 ```bash
 cd survey-project-modernization
 
+3. **Test**
+cd survey-project-modernization
+
 3. **Install Required Libraries**:
 ```bash
 pip install -r requirements.txt
