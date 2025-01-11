@@ -56,19 +56,14 @@ The revamped survey system has achieved:
    git clone https://github.com/username/survey-project-modernization.git
 
 2. **Navigate to the Project Directory**:
-```bash
-cd survey-project-modernization
-
-3. **Navigate to the Project Directory**:
-```bash
-
-3. **Install Required Libraries**:
-```bash
-pip install -r requirements.txt
-
-4. **Run the Analysis**:
-```bash
-python analysis.py
+   ```bash
+   cd survey-project-modernization
+3. **Install Required Libraries**
+   ```bash
+   pip install -r requirements.txt
+4. **Run the Analysis** 
+   ```bash
+   python analysis.py
 
 > **Note**: **Detailed instructions for reproducing the analysis, including dataset preprocessing, will be added soon. Stay tuned!**
 
