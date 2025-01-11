@@ -25,8 +25,6 @@ The datasets provided by the company include:
 
 > **Note**: Data includes sensitive information; ensure compliance with company data privacy guidelines.
 
-> **Note**: Data includes sensitive information; ensure compliance with company data privacy guidelines.
-
 ---
 
 ## **Tools Used**
