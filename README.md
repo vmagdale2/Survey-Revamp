@@ -68,11 +68,16 @@ The revamped survey system has achieved:
 > **Note**: **Detailed instructions for reproducing the analysis, including dataset preprocessing, will be added soon. Stay tuned!**
 
 ---
+
 ## EDA
-### *Word Cloud Generation*
-Code - 'notebooks/word_cloud.ipynb
-Standalone script - 'src/visualization/word_cloud.py 
-Images - 'results/figures/
+### **Word Cloud Generation**
+| Item | Location| 
+|---|---|
+| Code | Notebooks/word_cloud.ipynb |
+| Standalone Script | Scripts/visualization/word_cloud.py |
+|Output | Results/Figures/ 
+| Images | Images/WC.img |
+
 ---
 
 ## **Acknowledgments**
