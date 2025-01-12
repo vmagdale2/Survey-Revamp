@@ -8,7 +8,7 @@ import pandas as pd
 
 # Convert data types
 
-# Create new columns for 3NF normalization
+# Create new tables & columns for 3NF normalization
 
 
 import os
