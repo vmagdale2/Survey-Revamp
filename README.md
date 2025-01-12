@@ -25,6 +25,24 @@ The datasets provided by the company include:
 
 > **Note**: Data includes sensitive information; ensure compliance with company data privacy guidelines.
 
+## Data Folder Structure
+
+This folder contains the data used for the project, organized as follows:
+
+### Raw Data (`/raw`)
+- **original_data.xlsx**: The original dataset received on [date]. This file has not been modified.
+
+### Processed Data (`/processed`)
+- **cleaned_data.xlsx**: The cleaned version of the dataset. This includes:
+  - Removal of duplicates
+  - Handling of missing values
+  - Standardization of column names
+
+### Notes
+- Always start with the raw data for any new analysis.
+- Document all cleaning steps in a `data_preprocessing_script.py` or equivalent file.
+
+
 ---
 
 ## **Tools Used**
@@ -38,6 +56,14 @@ The datasets provided by the company include:
 3. **Scikit-learn**:
    - Predictive analysis on survey completion rates.
    - Clustering and segmentation of participant feedback.
+### **Apps** 
+Python, PyCharm, R (Tidyverse, ggplot), RStudio, SQL (PostgreSQL, MySQL)
+
+Tableau, LucidChart, Jupyter Notebooks, GitHub
+
+Microsoft Products: Excel, Visual Studio Code
+
+Google Apps: BigQuery, Drive, Cloud Storage, Colab 
 
 ---
 
