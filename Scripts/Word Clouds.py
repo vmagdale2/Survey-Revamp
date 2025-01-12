@@ -1,3 +1,5 @@
+dataset_table = "UPDATE WITH TABLE"
+
 query = f"""
 SELECT
   Gen_Feed
