@@ -72,7 +72,7 @@ The revamped survey system has achieved:
 ### *Word Cloud Generation*
 Code - 'notebooks/word_cloud.ipynb
 Standalone script - 'src/visualization/word_cloud.py 
-Image - 'results/figures/
+Images - 'results/figures/
 ---
 
 ## **Acknowledgments**
