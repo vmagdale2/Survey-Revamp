@@ -26,20 +26,17 @@ ORDER BY
     Count DESC
 """
 
-# Run the query
 query_job = client.query(query)
-
-# Fetch results
 results = query_job.result()
 
-# Extract data for visualization
+
 sentiments = []
 counts = []
 for row in results:
     sentiments.append(row.Sentiment)
     counts.append(row.Count)
 
-# Create the bar chart
+
 plt.figure(figsize=(8, 5))
 plt.bar(sentiments, counts)
 plt.title("Overall Conference Experience", fontsize=16)
@@ -48,11 +45,10 @@ plt.ylabel("Count", fontsize=14)
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 
-# Add data labels on bars
+
 for i, count in enumerate(counts):
     plt.text(i, count + 1, str(count), ha='center', fontsize=12)
 
-# Show the chart
 plt.tight_layout()
 plt.show()
 
