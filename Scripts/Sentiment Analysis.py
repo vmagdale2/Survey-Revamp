@@ -1,4 +1,10 @@
 # Sentiment Analysis for the Overall Conference Experience Survey Question
+from google.cloud import bigquery
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.use('TkAgg')
+client = bigquery.Client()
+
 query = """
 WITH SentimentMapping AS (
     SELECT
@@ -52,4 +58,3 @@ for i, count in enumerate(counts):
 plt.tight_layout()
 plt.show()
 
-# Sentiment Analysis for the Engaging and Informative Survey Question
